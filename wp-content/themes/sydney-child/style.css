@@ -1,0 +1,36 @@
+/*
+Theme Name: Sydney Child
+Description: Child Theme of Aurelie
+Author: Aurelie DUMAS
+Template: sydney 
+Version: 0.1.0
+*/
+
+@media ( min-width: 1199px) {
+	.stretch-right .elementor-image {
+	   margin-right: calc( ( 100vw - 1140px)/-2);
+  }
+	.stretch-left .elementor-image {
+	   margin-left: calc( ( 100vw - 1140px)/-2);
+  }	
+}
+.syd-contact  div.wpforms-container-full .wpforms-form button[type=submit] {
+	width: 100%;
+	display: block;
+    color: #00102E;
+    background: #FFD00A;	
+	  border: 0;
+}
+.grecaptcha-badge {visibility: hidden;}
+.s-contact-form p,
+.s-contact-form .row {
+	margin-bottom: 40px;
+}
+
+.footer-widgets .widget .menu {
+	text-align: center;
+} 
+
+.wpforms-submit {
+	border-color: transparent !important;
+}
